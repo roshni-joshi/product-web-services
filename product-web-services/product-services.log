@@ -1,0 +1,86 @@
+2022-03-15 17:55:11.781  INFO 10236 --- [main] c.p.p.ProductWebServicesApplicationTests : Starting ProductWebServicesApplicationTests using Java 15.0.2 on DESKTOP-F9B8I0H with PID 10236 (started by Roshni in C:\Users\Roshni Joshi\Desktop\CognizantProjects\Lecture\product-web-services)
+2022-03-15 17:55:11.796 DEBUG 10236 --- [main] c.p.p.ProductWebServicesApplicationTests : Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-03-15 17:55:11.798  INFO 10236 --- [main] c.p.p.ProductWebServicesApplicationTests : The following profiles are active: jpa
+2022-03-15 17:55:14.123  INFO 10236 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-15 17:55:14.299  INFO 10236 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 154 ms. Found 2 JPA repository interfaces.
+2022-03-15 17:55:15.835  INFO 10236 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-15 17:55:16.656  INFO 10236 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-15 17:55:16.930  INFO 10236 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-15 17:55:17.133  INFO 10236 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2022-03-15 17:55:17.282  INFO 10236 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-15 17:55:17.837  INFO 10236 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-03-15 17:55:19.329  INFO 10236 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-15 17:55:19.360  INFO 10236 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-15 17:55:20.537  WARN 10236 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-15 17:55:21.894  INFO 10236 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-15 17:55:21.944  INFO 10236 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-03-15 17:55:23.862  INFO 10236 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2282e7de, org.springframework.security.web.context.SecurityContextPersistenceFilter@7d2c61c2, org.springframework.security.web.header.HeaderWriterFilter@ab8f3d3, org.springframework.security.web.authentication.logout.LogoutFilter@2bbb1040, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1fd21367, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5737d839, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3b53625, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3471e039, org.springframework.security.web.session.SessionManagementFilter@4618e31c, org.springframework.security.web.access.ExceptionTranslationFilter@777777f2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@14ecde7d]
+2022-03-15 17:55:24.012  INFO 10236 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-15 17:55:24.152  INFO 10236 --- [main] c.p.p.ProductWebServicesApplicationTests : Started ProductWebServicesApplicationTests in 13.167 seconds (JVM running for 24.805)
+2022-03-15 17:55:24.246 DEBUG 10236 --- [main] c.p.p.bootstrap.ProductDataLoader        : in data loader
+2022-03-15 17:55:24.247 DEBUG 10236 --- [main] c.p.p.service.CustomerServiceJpaImpl     : Customer Jpa : Create Customer
+2022-03-15 17:55:24.406 DEBUG 10236 --- [main] c.p.p.service.ProductServiceJpaImpl      : Product JPA : Create Product
+2022-03-15 17:55:24.435 DEBUG 10236 --- [main] c.p.p.service.ProductServiceJpaImpl      : Product JPA : Create Product
+2022-03-15 17:55:25.826  INFO 10236 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-15 17:55:25.837  INFO 10236 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-15 17:55:25.841  INFO 10236 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-03-15 17:55:25.977  INFO 10236 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-15 17:55:25.982  INFO 10236 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-15 17:56:35.098  INFO 9852 --- [main] c.p.p.ProductWebServicesApplicationTests : Starting ProductWebServicesApplicationTests using Java 15.0.2 on DESKTOP-F9B8I0H with PID 9852 (started by Roshni in C:\Users\Roshni Joshi\Desktop\CognizantProjects\Lecture\product-web-services)
+2022-03-15 17:56:35.102 DEBUG 9852 --- [main] c.p.p.ProductWebServicesApplicationTests : Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-03-15 17:56:35.103  INFO 9852 --- [main] c.p.p.ProductWebServicesApplicationTests : The following profiles are active: jpa
+2022-03-15 17:56:37.405  INFO 9852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-15 17:56:37.600  INFO 9852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 172 ms. Found 2 JPA repository interfaces.
+2022-03-15 17:56:39.212  INFO 9852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-15 17:56:39.879  INFO 9852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-15 17:56:40.096  INFO 9852 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-15 17:56:40.308  INFO 9852 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2022-03-15 17:56:40.427  INFO 9852 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-15 17:56:41.102  INFO 9852 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-03-15 17:56:42.640  INFO 9852 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-15 17:56:42.669  INFO 9852 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-15 17:56:43.832  WARN 9852 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-15 17:56:45.114  INFO 9852 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-15 17:56:45.168  INFO 9852 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-03-15 17:56:47.011  INFO 9852 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@41671912, org.springframework.security.web.context.SecurityContextPersistenceFilter@53dba802, org.springframework.security.web.header.HeaderWriterFilter@3ad300bc, org.springframework.security.web.authentication.logout.LogoutFilter@2b2ea341, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3becd5bf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@22df65c8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@76be20b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15c362f, org.springframework.security.web.session.SessionManagementFilter@6ff6735a, org.springframework.security.web.access.ExceptionTranslationFilter@4f71393, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@785975a3]
+2022-03-15 17:56:47.203  INFO 9852 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-15 17:56:47.349  INFO 9852 --- [main] c.p.p.ProductWebServicesApplicationTests : Started ProductWebServicesApplicationTests in 13.08 seconds (JVM running for 24.829)
+2022-03-15 17:56:47.445 DEBUG 9852 --- [main] c.p.p.bootstrap.ProductDataLoader        : in data loader
+2022-03-15 17:56:47.446 DEBUG 9852 --- [main] c.p.p.service.CustomerServiceJpaImpl     : Customer Jpa : Create Customer
+2022-03-15 17:56:47.641 DEBUG 9852 --- [main] c.p.p.service.ProductServiceJpaImpl      : Product JPA : Create Product
+2022-03-15 17:56:47.674 DEBUG 9852 --- [main] c.p.p.service.ProductServiceJpaImpl      : Product JPA : Create Product
+2022-03-15 17:56:47.812  INFO 9852 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-15 17:56:47.838  INFO 9852 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-15 17:56:47.841  INFO 9852 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-03-15 17:56:49.112  INFO 9852 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-15 17:56:49.125  INFO 9852 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-15 17:57:04.514  INFO 11272 --- [main] c.p.p.ProductWebServicesApplication      : Starting ProductWebServicesApplication using Java 15.0.2 on DESKTOP-F9B8I0H with PID 11272 (C:\Users\Roshni Joshi\Desktop\CognizantProjects\Lecture\product-web-services\target\classes started by Roshni in C:\Users\Roshni Joshi\Desktop\CognizantProjects\Lecture\product-web-services)
+2022-03-15 17:57:04.516 DEBUG 11272 --- [main] c.p.p.ProductWebServicesApplication      : Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-03-15 17:57:04.517  INFO 11272 --- [main] c.p.p.ProductWebServicesApplication      : The following profiles are active: jpa
+2022-03-15 17:57:07.297  INFO 11272 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-15 17:57:07.474  INFO 11272 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 153 ms. Found 2 JPA repository interfaces.
+2022-03-15 17:57:09.179  INFO 11272 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-15 17:57:09.206  INFO 11272 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-15 17:57:09.208  INFO 11272 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-03-15 17:57:09.562  INFO 11272 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-15 17:57:09.563  INFO 11272 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4933 ms
+2022-03-15 17:57:09.927  INFO 11272 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-15 17:57:10.324  INFO 11272 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-15 17:57:10.340  INFO 11272 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-03-15 17:57:10.759  INFO 11272 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-15 17:57:10.904  INFO 11272 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2022-03-15 17:57:11.235  INFO 11272 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-15 17:57:12.239  INFO 11272 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-03-15 17:57:13.765  INFO 11272 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-15 17:57:13.782  INFO 11272 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-15 17:57:14.627  WARN 11272 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-15 17:57:14.955  INFO 11272 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-15 17:57:15.963  INFO 11272 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5ed88e31, org.springframework.security.web.context.SecurityContextPersistenceFilter@7878459f, org.springframework.security.web.header.HeaderWriterFilter@2487b621, org.springframework.security.web.authentication.logout.LogoutFilter@206e5183, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@33986be7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d24703e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d49fe37, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@574413bd, org.springframework.security.web.session.SessionManagementFilter@dd3e1e3, org.springframework.security.web.access.ExceptionTranslationFilter@5003c114, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@19d3f4fb]
+2022-03-15 17:57:16.027  INFO 11272 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2022-03-15 17:57:16.171  INFO 11272 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-15 17:57:16.207  INFO 11272 --- [main] c.p.p.ProductWebServicesApplication      : Started ProductWebServicesApplication in 12.512 seconds (JVM running for 13.386)
+2022-03-15 17:57:16.301 DEBUG 11272 --- [main] c.p.p.bootstrap.ProductDataLoader        : in data loader
+2022-03-15 17:57:16.303 DEBUG 11272 --- [main] c.p.p.service.CustomerServiceJpaImpl     : Customer Jpa : Create Customer
+2022-03-15 17:57:16.448 DEBUG 11272 --- [main] c.p.p.service.ProductServiceJpaImpl      : Product JPA : Create Product
+2022-03-15 17:57:16.481 DEBUG 11272 --- [main] c.p.p.service.ProductServiceJpaImpl      : Product JPA : Create Product
+2022-03-15 17:57:16.487 DEBUG 11272 --- [main] c.p.p.ProductWebServicesApplication      : started
